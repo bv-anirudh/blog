@@ -26,6 +26,7 @@ A few reasons you might want to move away from your exisiting hosting provider:
 * High costs
 * Too much downtime
 * Shared hosting is slowing your site down
+
 ### Pushing changes from staging to live or vice-versa
 
 You want to create a staging to test the changes you're about to make on your website.

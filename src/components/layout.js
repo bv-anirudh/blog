@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -27,6 +29,7 @@ class Layout extends React.Component {
             to={`/`}
           >
             {title}
+						<FontAwesomeIcon icon={faCoffee} />
           </Link>
         </h1>
       )
@@ -48,6 +51,7 @@ class Layout extends React.Component {
             to={`/`}
           >
             {title}
+						<FontAwesomeIcon icon={faCoffee} />
           </Link>
         </h3>
       )
